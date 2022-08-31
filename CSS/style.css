@@ -1,0 +1,540 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    font-family: sans-serif;
+}
+.main-left{
+    width: 15%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.dashboard{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard i{
+    font-size: 40px;
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+.name p{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 15px;
+}
+.name h4{
+    padding-bottom: 0;
+    margin-bottom: 6px;
+}
+.manu{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.manu p{
+    font-weight: bold;
+}
+.icon-last{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-last input{
+    margin-right: 30px;
+}
+.icon{
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.icon span{
+    margin-left: 10px;
+}
+.icon i, span{
+    font-size: 16px;
+}
+.pic{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic img{
+    width: 150px;
+    height: 160px;
+    border-radius: 30px;
+}
+.main-right{
+    width: 85%;
+    height: 120vh;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 253, 230);
+}
+.nav-left{
+    width: 76%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-left button{
+    width: 22%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    padding: 7px;
+    background-color: white;
+}
+.nav-left input{
+    width: 47%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.nav-right{
+    width: 24%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-right .two-button{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+.two-button button{
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+}
+.nav-right i{
+    padding: 7px;
+    border-radius: 20px;
+    background-color: white;
+}
+.nav-right img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+.content{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    background-color: rgb(190, 253, 230);
+}
+.content-left{
+    width: 76%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-colect{
+    width: 97%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-colect button{
+    height: 4vh;
+    padding: 5px;
+    color: rgb(0, 205, 205);
+    background-color: rgb(222, 255, 243);
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.the-menu{
+    width: 97%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.the-menu button{
+    /* width: 13%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    border-radius: 23px;
+    border: none;
+    background-color: white;
+}
+.the-menu button i{
+    margin-right: 5px;
+}
+.video-page{
+    width: 97%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.video-page .video:nth-child(2) .each-video{
+    background: url(../me2.jpg) no-repeat;
+    background-size: cover;
+}
+.video-page .video:nth-child(3) .each-video{
+    background: url(../me3.jpg) no-repeat;
+    background-size: cover;
+}
+.video-page .video:nth-child(4) .each-video{
+    background: url(../mine.jpg) no-repeat;
+    background-size: cover;
+}
+.video{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px;
+}
+.each-video{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../me1.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.but{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.but button{
+    padding: 6px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+.watch{
+    width: 90%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.watch button{
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+}
+.watch img{
+    width: 25px;
+}
+.describe, .current{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cost{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+.video span{
+    font-size: 13px;
+}
+.colector{
+    width: 97%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.colector span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.join{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+.join button{
+    padding: 4px;
+    border: none;
+    border-radius: 20px;
+}
+.top-nft{
+    width: 95%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.top-player{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.player{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-player{
+    width: 50%;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name-player span:nth-child(1){
+    font-weight: bold;
+}
+.name-player span:nth-child(2){
+    font-size: 12px;
+}
+.cost-plaer{
+    width: 25%;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cost-plaer span:nth-child(1){
+    font-weight: bold;
+    font-size: 13px;
+    color: red;
+}
+.cost-plaer span:nth-child(2){
+    font-weight: bold;
+    font-size: 12px;
+    color: green;
+}
+.player img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+hr{
+    width: 100%;
+    border: 1px solid rgb(222, 222, 222);
+}
+.content-right{
+    width: 24%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(190, 253, 230);
+}
+.header{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.top
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+}
+.top
+h3{
+    margin: 5px 0px 10px 0px;
+    padding: 0;
+}
+.top p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.the-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.the-top span{
+    font-weight: bold;
+}
+.the-body{
+    width: 90%;
+    height: 45vh;
+    margin-bottom: 20px;
+}
+.the-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.the-nav
+button{
+    padding: 2px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.colection{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+}
+.the-colect{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.prof{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+.prof img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+.nam1, .nam2{
+    display: flex;
+    flex-direction: column;
+}
+.nam1 span:nth-child(2){
+    font-size: 13px;
+}
+.nam1 span:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.nam2{
+    width: 33%;
+    align-items: flex-end;
+}
+.nam2 span:nth-child(2){
+    font-size: 12px;
+}
+.nam2 span:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.foot{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.foot 
+span{
+    font-size: 15px;
+}
+.top-foot{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.mine{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mine img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+.my-name{
+    display: flex;
+    flex-direction: column;
+}
+.my-name span:nth-child(1){
+    font-size: 16px;
+    font-weight: bold;
+}
+.bottom-foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-foot span{
+    font-weight: bold;
+}
+.me1 img{
+    width: 100px;
+    height: 110px;
+    border-radius: 10px;
+}
+.me1{
+    display: flex;
+    flex-direction: column;
+}
